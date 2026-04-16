@@ -79,6 +79,7 @@ It serves two audiences simultaneously:
 ---
 
 ## 🌊 Architecture & Data Flow
+
 Firebase Realtime DB
 │
 │  onValue() listeners (real-time push)
@@ -90,7 +91,8 @@ index.html (Vanilla JS)
 └── Gemini API → AI assistant + seat arrival planner
 │
 └── Live stadium context injected into every prompt
-(current wait times + user's seat location)
+   (current wait times + user's seat location)
+
 
 **No build tools. No npm. No framework.** A single `index.html` served 
 via nginx on Cloud Run — fast, lean, and fully auditable.
