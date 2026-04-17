@@ -1055,7 +1055,10 @@
 
     // Global Keybind Trap
     window.addEventListener('keydown', (e) => {
-       if(e.ctrlKey && e.shiftKey && e.key === 'T') {
+       const isKeyT = e.key === 't' || e.key === 'T' || e.code === 'KeyT';
+       const isKeyE = e.key === 'e' || e.key === 'E' || e.code === 'KeyE'; // secondary for manual testing
+       
+       if(e.ctrlKey && e.shiftKey && (isKeyT || isKeyE)) {
           e.preventDefault();
           const res = runTests();
           const score = (res.filter(r => r.passed).length / res.length) * 100;
