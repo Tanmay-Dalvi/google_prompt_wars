@@ -21,5 +21,6 @@ const CONFIG = {
     appId: 'YOUR_FIREBASE_APP_ID',
     measurementId: 'YOUR_MEASUREMENT_ID'
   },
-  DEBUG_MODE: false
+  DEBUG_MODE: false,
+  CONFIG_VERSION: '2.0.0'
 };
