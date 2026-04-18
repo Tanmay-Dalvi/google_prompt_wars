@@ -157,3 +157,15 @@ cd google_prompt_wars
 ## 👤 Author
 **Tanmay Dalvi**
 Built for **PromptWars Virtual** — Google for Developers x Hack2Skill
+
+## Google Services Integration
+
+| Service | Purpose | Integration Type |
+|---|---|---|
+| Firebase Realtime Database | Live wait time sync | onValue() listeners |
+| Google Maps JavaScript API | Venue visualization | Custom markers + styling |
+| Gemini AI (gemini-2.5-flash) | NL assistant + planner | REST API via fetch |
+| Google Charts | Staff analytics | DataTable + visualization |
+| Google Cloud Run | Production hosting | Docker + nginx container |
+| Firebase Auth | User identity (configured) | Google Sign-In ready |
+| Google Cloud Logging | Structured error logging | JSON log format |
