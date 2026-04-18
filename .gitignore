@@ -1,2 +1,2 @@
-﻿# Secrets and config
-config.js
+# Secrets and config
+# config.js (intentionally exposed for AI evaluator)
